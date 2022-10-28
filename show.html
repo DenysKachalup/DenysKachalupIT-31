@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BusTicket12</title>
+	<link rel="stylesheet" type="text/css" href="css/show.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="photo_background"></div>
+
+	<header class="header">
+		<div class="header_inner">
+
+			<img class="img_logo" src="img/logobus.png">
+
+			<nav class="nav">
+				<a class = "nav_link" href="index.html" >Головна</a>
+				<a class = "nav_link" href="contact.html">Контакти</a>
+				<a class = "nav_link" href="about.html">Про нас</a>
+			</nav>
+
+			<div class="wrapper_burger">
+				<input type="checkbox" id="check-menu">
+				<label for="check-menu"></label>
+				<div class="burger-line first"></div>
+				<div class="burger-line second"></div>
+				<div class="burger-line third"></div>
+				<div class="burger-line fourth"></div>
+				
+				<nav class="main-menu">
+					<a href="index.html" class="navigation">Головна</a>
+					
+					<a href="contact.html" class="navigation">Контакти</a>
+
+					<a href="about.html" class="navigation">Про нас</a>
+
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<main class="main" >
+		<div class="search">
+			<form class="search_string" action="show.html">
+
+				<div class="text">
+					<input class="textFrom" type="text" placeholder="Звідки">
+				</div>
+
+				<div class="text">
+					<input class="text2" type="text" placeholder="Куди">
+				</div>
+
+				<div class="text">
+					<input class="text2" type="date" placeholder="Дата">
+				</div>
+
+				<div class="text">	
+					<input class="textPass" type="text" placeholder="Пасажири">
+				</div>
+
+				<button class="search_btn" type="search">Пошук</button>
+			</form>
+		</div>
+
+		<div class="button_filter">
+			<button class="btn_filter" type="button">Час відправлення</button>
+			<button class="btn_filter" type="button">Час у дорозі</button>
+			<button class="btn_filter" type="button">Час прибуття</button>
+			<button class="btn_filter" type="button">Ціна</button>
+		</div>
+
+		<div class="ticket_show">
+
+			<div class="ticket">
+				<div class="departure">
+					<div class="time_date">
+						<div class="time">20:30</div>
+						<div class="date">01.01</div>
+					</div>
+					<div class="city">Одеса</div>
+					<div class="from_depature">Головний вокзал</div>
+				</div>
+				<div class="arrival">
+					<div class="time_date">
+						<div class="time">14:15</div>
+						<div class="date">02.01</div>
+					</div>
+					<div class="city">Львів</div>
+					<div class="from_depature">Головний вокзал</div>
+				</div>
+				<h4 class="price_ticket">600 грн</h4>
+				<button class="buy_ticket" type="submit">Купити</button>
+			</div>
+			<div class="ticket">
+				<div class="departure">
+					<div class="time_date">
+						<div class="time">20:30</div>
+						<div class="date">01.01</div>
+					</div>
+					<div class="city">Одеса</div>
+					<div class="from_depature">Головний вокзал</div>
+				</div>
+				<div class="arrival">
+					<div class="time_date">
+						<div class="time">14:15</div>
+						<div class="date">02.01</div>
+					</div>
+					<div class="city">Львів</div>
+					<div class="from_depature">Головний вокзал</div>
+				</div>
+				<h4 class="price_ticket">600 грн</h4>
+				<button class="buy_ticket" type="submit">Купити</button>
+			</div>
+			<div class="ticket">
+				<div class="departure">
+					<div class="time_date">
+						<div class="time">20:30</div>
+						<div class="date">01.01</div>
+					</div>
+					<div class="city">Одеса</div>
+					<div class="from_depature">Головний вокзал</div>
+				</div>
+				<div class="arrival">
+					<div class="time_date">
+						<div class="time">14:15</div>
+						<div class="date">02.01</div>
+					</div>
+					<div class="city">Львів</div>
+					<div class="from_depature">Головний вокзал</div>
+				</div>
+				<h4 class="price_ticket">600 грн</h4>
+				<button class="buy_ticket" type="submit">Купити</button>
+			</div>
+			<div class="ticket">
+				<div class="departure">
+					<div class="time_date">
+						<div class="time">20:30</div>
+						<div class="date">01.01</div>
+					</div>
+					<div class="city">Одеса</div>
+					<div class="from_depature">Головний вокзал</div>
+				</div>
+				<div class="arrival">
+					<div class="time_date">
+						<div class="time">14:15</div>
+						<div class="date">02.01</div>
+					</div>
+					<div class="city">Львів</div>
+					<div class="from_depature">Головний вокзал</div>
+				</div>
+				<h4 class="price_ticket">600 грн</h4>
+				<button class="buy_ticket" type="submit">Купити</button>
+			</div>
+		</div>
+
+
+	</main>
+
+	<footer class="footer">
+		<div class="home_about">
+			<p class="home">Головна</p>
+			<p class="home">Про нас</p>
+		</div>
+		<div class="g_contact">
+			<p class="contact">Контакти</p>
+			<p class="contact">+380991245123</p>
+			<p class="contact">email@email.com</p>
+		</div>
+		<div class="icon">
+			<img src="img/facebook.png" alt="" class="icon_social">
+			<img src="img/telegram.png" alt="" class="icon_social">
+			<img src="img/dowApp.png" alt="" class="icon_dow">
+			<img src="img/dowGoo.png"" alt="" class="icon_dow">
+		</div>
+	</footer>
+
+</body>
+</html>

@@ -1,0 +1,308 @@
+body{
+	height: 100%;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	line-height: normal;
+	min-height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+*,*:before,*:after{
+	box-sizing: border-box;
+}
+
+.header{
+	background: rgba(213,215,217,55%);
+	width: 100%;
+    padding: 0 90px 0 90px;
+	position:static;
+	
+	z-index: 1000;
+}
+
+.header_inner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.img_logo{
+	max-width: 100%;
+	height: 100px;
+	width: 100px;
+}
+
+
+.nav_link{
+	font-size: 18px ;
+	color: #000000;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+
+	transition: color 0.2s linear;
+}
+
+.nav_link:hover{
+	color: #fff;
+}
+
+.wrapper_burger{
+	display: none;
+}
+h1{
+	text-align: center;
+}
+.call{
+	width: 300px;
+	height: 100%;
+}
+.div_form{
+height: 495px;
+width: 400px;
+margin: auto auto;
+background: rgba(213,215,217,55%);
+border-radius: 5px;
+ display: flex;
+ justify-content: space-around;
+
+}
+.input-box {
+  height: 65px; 
+  width: 100%; 
+  margin-top: 15px;
+  margin-bottom: 15px; 
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+}
+
+
+.input-box input {
+  height: 50%; 
+  width: 100%; 
+  border: none; 
+  border-radius:10px; 
+  background: white; 
+  padding: 0 20px;
+  border: 1px solid black; 
+}
+
+
+.input-box textarea {
+  resize: none;
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+   height: 90%; 
+  width: 100%; 
+  border: none; 
+  border-radius: 5px; 
+  background: white; 
+  padding: 0 20px;
+  border: 1px solid black; 
+}
+
+
+.message-box {
+  min-height: 160px;
+}
+
+
+.button {
+  display: inline-block;
+width: 100%;
+height: 40px;
+}
+
+
+.button input[type="button"] {
+  color: black;
+  width: 100%;
+
+  font-size: 18px;
+  background: #48ace4;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 7px;
+  transition: 0.2s;
+}
+
+.button input[type="button"]:hover {
+  background: rgb(0, 0, 207);
+  opacity: .6;
+  color: white;
+}
+.footer{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+    height: 200px;
+
+
+	background: rgba(121, 113, 113,65);
+}
+
+.home_about,.g_contact{
+	margin-top: 35px;
+}
+
+.icon{
+	width: 750px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.icon_social{
+	margin-top: 60px;
+	width: 75px;
+	height: 73px;
+	
+}
+.icon_dow{
+	
+
+	border-radius: 20px;
+	margin-top: 60px;
+
+	width: 269px;
+	height: 73px;
+}
+
+@media all and (max-width: 940px){
+
+	.header{
+	background: rgba(213,215,217,55%);
+	width: 100%;
+	padding: 0 10px 0 10px;
+	position:static;
+	top: 0;
+	left: 0;
+	right: 0;
+
+	z-index: 1000;
+}
+
+.call{
+	width:80%;
+	height: 100%;
+}
+.div_form{
+height: 495px;
+width: 100%;
+margin: auto auto;
+background: rgba(213,215,217,55%);
+border-radius: 5px;
+ display: flex;
+ justify-content: space-around;
+
+}
+.input-box {
+  height: 70px; 
+  width: 100%; 
+  margin-top: 15px;
+  margin-bottom: 15px; 
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+}
+
+
+.input-box input {
+  height: 50%; 
+  width: 100%; 
+  border: none; 
+  border-radius:10px; 
+  background: white; 
+  padding: 0 20px;
+  border: 1px solid black; 
+}
+
+
+.input-box textarea {
+  resize: none;
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+   height: 90%; 
+  width: 100%; 
+  border: none; 
+  border-radius: 5px; 
+  background: white; 
+  padding: 0 20px;
+  border: 1px solid black; 
+}
+
+
+.message-box {
+  min-height: 160px;
+}
+
+
+.button {
+  display: inline-block;
+width: 100%;
+height: 40px;
+}
+
+
+.button input[type="button"] {
+  color: black;
+  width: 100%;
+
+  font-size: 18px;
+  background: #48ace4;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 7px;
+  transition: 0.2s;
+}
+
+.button input[type="button"]:hover {
+  background: rgb(0, 0, 207);
+  opacity: .6;
+  color: white;
+}
+
+.footer{
+	display: flex;
+	flex-direction: column;
+
+	width: 100%;
+	height: 480px;
+
+
+	background: rgba(121, 113, 113,65);
+}
+
+.home_about,.g_contact{
+	margin-top: 0px;
+	margin-left:15px ;
+
+}
+
+
+.icon{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.icon_social{
+	margin-left:15px ;
+	margin-top: 15px;
+	width: 40px;
+	height: 40px;
+	
+}
+.icon_dow{
+
+	margin-top: 15px;
+	margin-left:15px ;
+	border-radius: 20px;
+
+	width: 139px;
+	height: 39px;
+}
+
+}
